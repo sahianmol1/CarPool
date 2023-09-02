@@ -88,13 +88,17 @@ fun Home(
             Button(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(top = 8.dp),
+                    .padding(top = 16.dp),
                 onClick = { /*TODO*/ }
             ) {
-                Text(text = "Find CarPools")
+                Text(
+                    modifier = Modifier
+                        .padding(vertical = 8.dp),
+                    text = "Find CarPools"
+                )
             }
 
-            Spacer(modifier = Modifier.weight(1.5f))
+            Spacer(modifier = Modifier.weight(1.4f))
         }
     }
 }
