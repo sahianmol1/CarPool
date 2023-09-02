@@ -70,6 +70,7 @@ fun Home(
                     label = {
                         Text(
                             text = "Enter you pickup",
+                            maxLines = 1,
                             overflow = TextOverflow.Ellipsis
                         )
                     },
@@ -86,6 +87,7 @@ fun Home(
                     label = {
                         Text(
                             text = "Enter your destination",
+                            maxLines = 1,
                             overflow = TextOverflow.Ellipsis
                         )
                     },
